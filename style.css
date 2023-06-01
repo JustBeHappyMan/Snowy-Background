@@ -1,4 +1,24 @@
+@font-face {
+  font-family: Christmas;
+  src: url("/font/MerryChristmasFlake.ttf");
+  font-weight: 400;
+  font-style: normal;
+}  
+
 body {
   background-color: #102b40;
   overflow: hidden;
+  font-family: Christmas, serif;
+}
+
+h1 {
+  position: absolute;
+  line-height: 100vh;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 5em;
+  letter-spacing: 0.2em;
+  color: #fff;
+  z-index: 1;
 }
